@@ -51,7 +51,7 @@ module "compute" {
 
   depends_on = [module.subnet]
 }
-
+/*
 # 4. Create Database in Database Subnet
 module "database" {
   source = "./modules/database"
@@ -75,3 +75,4 @@ module "database" {
 
   depends_on = [module.subnet, module.compute]
 }
+*/

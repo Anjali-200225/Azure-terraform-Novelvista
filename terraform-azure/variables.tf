@@ -56,7 +56,7 @@ variable "app_config" {
     environment = string
   })
 }
-
+/*
 # Database Configuration
 variable "database_config" {
   description = "Configuration for database server"
@@ -72,7 +72,7 @@ variable "database_config" {
     backup_retention_days = number
   })
 }
-
+*/
 # Tags
 variable "tags" {
   description = "Tags for all resources"

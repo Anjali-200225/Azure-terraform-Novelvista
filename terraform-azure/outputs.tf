@@ -79,7 +79,7 @@ output "application_url" {
   ) : null
   description = "URL to access the first application instance"
 }
-*/
+
 # Database Information
 output "database_fqdn" {
   value       = module.database.database_fqdn
@@ -117,3 +117,4 @@ output "deployment_summary" {
   }
   description = "Summary of the deployed infrastructure"
 }
+*/
