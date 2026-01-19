@@ -17,8 +17,8 @@ jobs:
     strategy:
       matrix:
         root:
-          - novelist-infra
-          - terraform-azure
+          - ./novelist-infra
+          - ./terraform-azure
 
     env:
       # Azure authentication (Terraform automatically picks these up)
